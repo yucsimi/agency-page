@@ -28,7 +28,7 @@ const Seccion3 = () => {
                 </div>
 
 
-                <span className='seccion3-Imagen sborder'><img src={saly6} /></span>
+                <span className='seccion3-Imagen sborder'><img alt='saly6' src={saly6} /></span>
 
 
 

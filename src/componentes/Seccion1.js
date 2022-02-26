@@ -11,7 +11,7 @@ const Seccion1 = () => {
 
 
 
-            <span className=' seccion1-doodle col-12 col-md-2'><img src={dodle} /></span>
+            <span className=' seccion1-doodle col-12 col-md-2'><img alt='dodle' src={dodle} /></span>
 
 
 
@@ -26,7 +26,7 @@ const Seccion1 = () => {
 
 
 
-                <span className="seccion1-imagen  col-8 col-lg-3 \"> <img src={uno} /></span>
+                <span className="seccion1-imagen  col-8 col-lg-3 \"> <img alt='uno' src={uno} /></span>
 
             </div>
 

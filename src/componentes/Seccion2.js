@@ -26,13 +26,13 @@ const Seccion2 = () => {
         <div className='seccion2 row'>
 
             <div className='d-flex seccion2-navbar '>
-                <span className='doodle2'><img src={doodle2} /></span>
+                <span className='doodle2'><img alt='doodle2' src={doodle2} /></span>
 
 
                 <p className='seccion2-title col-3'>Simplify your online shipping for free this month!</p>
 
 
-                <span className='seccion2-imagen '><img src={saly2} /></span>
+                <span className='seccion2-imagen '><img alt='saly2' src={saly2} /></span>
 
 
                 <p className='seccion2-subtitle col-3'>Grow your business with better Shipping organizations</p>
@@ -45,11 +45,11 @@ const Seccion2 = () => {
 
             <div className='d-flex cartas '>
                 <div className='col-3' >
-                    <span><img src={bang} /></span>
+                    <span><img alt='bang' src={bang} /></span>
                     <p className=''>Et has minim elitr intellegat.Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum.</p>
                 </div>
                 <div className='col-3 '>
-                    <span><img src={buy} /></span>
+                    <span><img alt='buy' src={buy} /></span>
                     <p className=''>Et has minim elitr intellegat.Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum.</p>
                 </div>
 
@@ -58,33 +58,33 @@ const Seccion2 = () => {
 
             <div className='d-flex   segundasCartas'>
                 <div className='col-3  '>
-                    <span><img src={ticket} /></span>
+                    <span><img alt='ticket' src={ticket} /></span>
                     <p className='py-4'>Et has minim elitr intellegat.Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum.</p>
                 </div>
 
 
                 <div className='col-3r'>
-                    <span><img src={circle} /></span>
+                    <span><img alt='circle' src={circle} /></span>
                     <p className=''>Et has minim elitr intellegat.Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum.</p>
                 </div>
 
 
                 <div className='col-3  '>
-                    <span><img src={square} /></span>
+                    <span><img alt='square' src={square} /></span>
                     <p className=''>Et has minim elitr intellegat.Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum.</p>
                 </div>
 
                 <div className='col-3 '>
-                    <span><img src={disscount} /></span>
+                    <span><img alt='disccount' src={disscount} /></span>
                     <p className=''>Et has minim elitr intellegat.Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum.</p>
                 </div>
             </div>
 
-            <span className='doodle3'><img src={doodle3} /></span>
+            <span className='doodle3'><img alt='doodle3' src={doodle3} /></span>
 
             <div className='d-flex terceraParte '>
 
-                <span className='col-5  mx-5'><img src={saly3} /></span>
+                <span className='col-5  mx-5'><img alt='saly3' src={saly3} /></span>
 
                 <div className=' seccion2-texto  '>
                     <p className='seccion2-titulo'> We scratch, build and play together </p>

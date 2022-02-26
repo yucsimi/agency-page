@@ -22,7 +22,7 @@ const Footer = () => {
         <div className='footer row'>
             <div className=''>
 
-                <span className='doodle col-6 col-md-2'><img src={doodle} /></span>
+                <span className='doodle col-6 col-md-2'><img alt='doodle' src={doodle} /></span>
 
 
             </div>
@@ -35,7 +35,7 @@ const Footer = () => {
 
                 <div className=' footer-Iparte   col-10 col-md-4 offset-1'>
 
-                    <span className=' egency  '><img src={egency} /></span>
+                    <span className=' egency  '><img alt='egency' src={egency} /></span>
                     <p className='  textoo'> Et has minim elitr intellegat.  Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est audiam animal molestiae te. Ex duo eripuit mentitum. Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est audiam animal molestiae te. Ex duo eripuit mentitum.</p>
 
 
@@ -114,7 +114,7 @@ const Footer = () => {
 
 
             <div className='col-2 col-md-12 '>
-                <span className='doodle61'><img src={doodle61} /></span>
+                <span className='doodle61'><img alt='doodle61' src={doodle61} /></span>
 
 
             </div>
@@ -124,13 +124,13 @@ const Footer = () => {
 
                 <div className=' pay-mode '>
 
-                    <span className='m-3 my-2 visa '><img src={visa} /></span>
-                    <span className='m-3 american'><img src={american} /></span>
-                    <span className='m-3 paypal'><img src={paypal} /></span>
-                    <span className='m-3 mastercard'> <img src={mastercard} /></span>
-                    <span className='m-3 stripe'><img src={stripe} /></span>
-                    <span className='m-3 bitcoin'><img src={bitcoin} /></span>
-                    <span className='m-3 bancontact'><img src={bancontact} /></span>
+                    <span className='m-3 my-2 visa '><img alt="visa" src={visa} /></span>
+                    <span className='m-3 american'><img alt="american" src={american} /></span>
+                    <span className='m-3 paypal'><img alt="paypal" src={paypal} /></span>
+                    <span className='m-3 mastercard'> <img alt="mastercard" src={mastercard} /></span>
+                    <span className='m-3 stripe'><img alt="stripe" src={stripe} /></span>
+                    <span className='m-3 bitcoin'><img alt="bitcoin" src={bitcoin} /></span>
+                    <span className='m-3 bancontact'><img alt="bancontact" src={bancontact} /></span>
 
 
 
@@ -149,7 +149,7 @@ const Footer = () => {
             </div >
 
             <div className='col-2 col-md-12'>
-                <span className='doodle51 '><img src={doodle51} /></span>
+                <span className='doodle51 '><img alt='foodle51' src={doodle51} /></span>
             </div>
 
 

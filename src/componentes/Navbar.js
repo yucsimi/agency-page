@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className='navbar  '>
 
             <div className='navbar-logo '>
-                <span><img src={egency} /></span>
+                <span><img alt='egency' src={egency} /></span>
 
             </div>
             <div className='d-flex navbar-texto'>

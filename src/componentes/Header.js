@@ -8,7 +8,7 @@ const Header = () => {
         <div className='header row'>
 
             <div className='col-12 col-md-5 '>
-                <span className='header-logo '><img src={saly} /></span>
+                <span className='header-logo '><img alt='saly' src={saly} /></span>
 
             </div>
 
