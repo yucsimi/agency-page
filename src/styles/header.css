@@ -1,0 +1,50 @@
+
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+display: flex;
+ background:  rgba(255, 165, 2, 0.5);
+
+ min-height: 99vh;
+
+}
+
+.header-logo img{
+    width: 90%;
+}
+
+.header-texto{
+    margin-left: 90px;
+    margin-top:100px;
+}
+
+.header-titulo{
+    font-size: 52px;
+    font-family: muli;
+    color: #373F41;
+Width:445px;
+
+}
+
+.header-subtitle{
+    font-family: Muli;
+font-size: 16px;
+color: #737B7D;
+Width:445px;
+}
+
+.header-boton{
+    border: 1px solid #F73C6B ;
+    width: 111px;
+height: 42px;
+display: flex;
+align-items: center;
+font-family: muli;
+cursor: pointer;
+justify-content: center;
+color: #F73C6B;
+font-weight: 500;
+}

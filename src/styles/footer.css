@@ -1,0 +1,215 @@
+.footer{
+    background: rgba(46, 213, 115, 0.5);
+    position: relative;
+min-height: 99vh;
+}
+
+
+.doodle{
+    position: absolute;
+    top: -60px;
+    right: 0;
+    display: flex;
+    margin-bottom: 100px;
+
+}
+
+.doodle img{
+    width: 60%;
+}
+
+
+ .footer-top{
+padding-top: 20px; 
+display: flex;
+
+}
+
+.footer-Iparte{ 
+    flex-direction: column;
+    padding: 20px;
+  
+} 
+
+.footer-Iparte p{
+    color: #000000;
+    opacity: 0.5;
+    font-family: Muli;
+    font-size: 18px;
+    font-family: muli;
+    margin-top: 20px;
+    
+}
+
+
+ 
+
+.footer-IIparte{
+    font-family: muli; 
+    padding: 20px;
+
+
+}
+
+.footer-IIparte li{
+    list-style: none;
+    font-family: muli;
+    color: #555555; text-align: left;
+}
+
+
+.footer-IIparte p{
+    color:  #454646;
+}
+
+
+.pages {
+text-align: center;
+}
+
+.lista{
+    margin-top: 30px;
+}
+
+
+
+
+.demos{
+    text-align: center;
+}
+
+.segundaLista{
+    margin-top: 30px;
+
+}
+
+
+
+.resourses{
+    text-align: left;
+}
+
+.terceraLista{
+    margin-top: 30px;
+
+}
+
+
+
+
+
+
+
+
+.footer-IIIparte {
+    display: flex;
+    justify-content: right;
+
+    cursor: pointer;
+}
+
+
+.footer-IIIparte p{
+    font-family: muli;
+    font-size: 15px;
+    color: #000000;
+    margin: 20px; 
+    font-weight: 600;
+    margin-right: 70px;
+}
+
+
+.barra-boton{
+    border-bottom: 1.5px solid black;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.pay-mode{
+        display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.doodle61{
+    position: absolute;
+    left: 0;
+    display: flex;
+    bottom: 0;
+    margin-top: 10px;
+
+}
+
+
+.doodle61 img{
+    width: 90%;
+}
+.doodle51{
+    position: absolute;
+    right: 0;
+    display: flex;
+    bottom: 0;
+    margin-top: -80px;
+
+}
+.doodle51 img{
+    width: 80%;
+}
+
+
+
+
+
+.footer-copyrit{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: muli;
+    
+}
+
+.all-rights{
+    font-size: 15px;
+    color: #494949;
+    opacity: 50%;
+    text-align:left ;
+}
+.terms{
+    font-size: 15px;
+    color: #494949;
+
+}
+
+
+@media all and (max-width:900px){
+.footer-IIIparte
+{
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    font-size: 10px;
+
+}
+
+
+
+
+
+.pay-mode{
+display: block;
+flex-direction: column-reverse;
+margin-top: 10px;
+padding-right: 10px;
+}
+
+.footer-copyrit {
+flex-direction: column-reverse;
+
+
+}
+.footer-copyrit p{
+    text-align: center;
+}
+
+
+}

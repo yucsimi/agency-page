@@ -1,0 +1,53 @@
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background:rgba(255, 165, 2, 0.5);
+
+}
+.navbar-logo{
+    margin-left: 12px;
+    margin-bottom: 10px;
+}
+.navbar-texto p{
+margin-right: 40px;
+margin-top: 10px;
+font-family: Muli;
+font-size: 15px;
+
+}
+    .about{
+        color: #3C64B1;
+    }
+
+.navbar-boton p{
+margin-right: 29px;
+margin-top: 10px;
+font-family: Muli;
+font-size: 15px;
+
+
+
+}
+
+    .SingIng{
+    color: #3C64B1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .boton{
+        height: 42px;
+        width: 91px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #F73C6B;
+        font-family: Muli;
+        font-size: 14px;
+        color:#fff;
+        border-radius: 6px;
+        cursor: pointer;
+    }

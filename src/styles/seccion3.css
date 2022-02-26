@@ -1,0 +1,217 @@
+
+.row{
+    margin: none;
+    padding: 0;
+}
+
+.navbarSeccion3{
+
+    background: rgba(255, 71, 87, 0.5); 
+     min-height: 57px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.seccion3-input{
+padding: 0;
+display: block;
+
+}
+
+.seccion3-titulo{
+font-size: 30px;
+font-family: muli;
+color:  #4F4F4F;
+margin-left: 20px;
+margin-bottom: 20px;
+
+}
+
+
+.formulario input{
+width: 260px;
+height: 37px;
+border-radius: 6px;
+outline:  none;
+margin-left: 20px;
+border: 1px solid white;
+margin-bottom: 80px;
+
+}
+
+
+.formulario input::placeholder{
+    font-size:14px ;
+    color: #737B7D;
+    font-family: muli;
+}
+
+.boton2{
+width: 100px;
+height: 37px;
+background:rgba(255, 71, 87, 0.5); ;
+color: #FFFFFF;
+margin-left: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 14px;
+cursor: pointer;
+border-radius: 8px;
+font-weight: 500;
+font-family: muli;
+
+}
+
+.seccion3-Imagen{
+    margin-top: 50px;
+  
+}
+
+.seccion3-Imagen img{
+    width: 80%;
+}
+
+.seccion3-title{
+    font-size: 32px;
+font-family: muli;
+margin-top: 50px;
+padding-left: 30px;
+
+}
+
+.seccion3-cartas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+padding-bottom: 20px;
+
+}
+.seccion3-primeraCarta{
+     box-shadow: 10px 10px 50px 3px #275C8D1A;
+    height: 300px;
+    position: relative;
+    border-radius: 0px 0px 12px 12px;
+
+
+    
+}
+
+.seccion3-segundaCarta{
+    box-shadow: 10px 10px 50px 3px #275C8D1A;
+
+    height: 300px;
+    position: relative;
+    border-radius: 0px 0px 12px 12px;
+  
+
+
+}
+.seccion3-terceraCarta {
+    box-shadow: 10px 10px 50px 3px #275C8D1A;
+
+    height: 300px;
+    position: relative;
+    border-radius: 0px 0px 12px 12px;
+
+}
+
+
+.Carta-title{
+font-size: 34px;
+font-family: muli;
+color: #23242A;
+margin-top: 20px;
+
+
+
+}
+.Carta-text{
+    margin-top: 40px;
+    font-size: 15px;
+    font-family: muli;
+    color: #23242A;
+
+}
+
+
+.primeraCarta-subtitle{
+    font-family: muli;
+    font-size: 18px;
+    background: #FFD281;
+    box-shadow: 10px 10px 50px 3px rgba(39, 92, 141, 0.1);
+    border-radius: 0px 0px 12px 12px;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.terceraCarta-subtitle{
+font-family: muli;
+font-size: 18px;
+background:#FFA3AB; ;
+box-shadow: 10px 10px 50px 3px rgba(39, 92, 141, 0.1);
+border-radius: 0px 0px 12px 12px;
+position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.segundaCarta-subtitle{
+
+    font-family: muli;
+font-size: 18px;
+background: rgba(46, 213, 115, 0.5);
+box-shadow: 10px 10px 50px 3px rgba(39, 92, 141, 0.1);
+border-radius: 0px 0px 12px 12px;
+position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+@media all and (max-width:900px){
+
+
+    .navbarSeccion3 {
+display: block;
+flex-direction: column;
+
+    }
+
+    .seccion3-input p,input{
+        margin-top: 60px;
+    }
+
+
+.seccion3-Imagen img{
+    max-width: 60%;
+    margin-top: -100px;
+}
+
+}
